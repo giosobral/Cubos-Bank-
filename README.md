@@ -21,19 +21,36 @@ um determinado funcionário do banco pode obter todas as contas cadastradas no b
 - Agora basta ir ate um gerenciador de rotas e criar as requisições passando as seguintes rotas para cada função do banco:
 
    ```javascript
-   "OBS: O 'N' passado como parametro de requisição em algumas rotas significa o numero da conta, no caso vc deverá substituir este por um número"
+   //Observacoes:
+   "O 'N' passado como parametro de requisição em algumas rotas significa o numero da conta, no caso vc deverá substituir este por um número"
+   "a senha passada como  parametro de consulta é a senha do usuario informado pelo numero da conta, já a senha_banco é a senha administrativa do banco"
 
-  // LISTAR TODAS AS CONTAS CADASTRADAS NO BANCO: Verbo: GET Rota:localhost:3000/contas?senha_banco=Cubos123Bank
-  // CADASTRAR UMA NOVA CONTA : Verbo: POST Rota:localhost:3000/contas
-  // ATUALIZAR OS DADOS DE UMA CONTA: Verbo: POST Rota:localhost:3000/contas/N/usuario 
-  // EXCLUIR UMA CONTA: Verbo: DELETE Rota:localhost:3000/contas/N
-  // DEPOSITAR EM UMA CONTA: Verbo: POST Rota:localhost:3000/transacoes/depositar
-  // SACAR DE UMA CONTA: Verbo: POST Rota:localhost:3000/transacoes/sacar
-  // TRANSFERIR ENTRE CONTAS: Verbo: POST Rota:localhost:3000/transacoes/transferir
-  // OBTER O SALDO DE UMA CONTA: Verbo: GET Rota:http://localhost:3000/contas/saldo?numero_conta=1&senha=12345
-  // EMITIR O EXTRATO DE UMA CONTA: Verbo: GET Rota:http://localhost:3000/contas/saldo?numero_conta=1&senha=12345
+   //LISTAR TODAS AS CONTAS CADASTRADAS NO BANCO:
+   Verbo: "GET" Rota:"localhost:3000/contas?senha_banco=Cubos123Bank"
 
-   "OBS: a senha passada como  parametro de consulta é a senha do usuario informado pelo numero da conta, já a senha_banco é a senha administrativa do banco"
+   //CADASTRAR UMA NOVA CONTA:
+   Verbo: "POST" Rota:"localhost:3000/contas"
+
+   //ATUALIZAR OS DADOS DE UMA CONTA:
+   Verbo: "POST" Rota:"localhost:3000/contas/N/usuario" 
+
+   //EXCLUIR UMA CONTA:
+   Verbo: "DELETE" Rota:"localhost:3000/contas/N"
+
+   //DEPOSITAR EM UMA CONTA:
+   Verbo: "POST" Rota:"localhost:3000/transacoes/depositar"
+
+   //SACAR DE UMA CONTA:
+   Verbo: "POST" Rota:"localhost:3000/transacoes/sacar"
+
+   //TRANSFERIR ENTRE CONTAS:
+   Verbo: "POST" Rota:"localhost:3000/transacoes/transferir"
+
+   //OBTER O SALDO DE UMA CONTA:
+   Verbo: "GET" Rota:"http://localhost:3000/contas/saldo?numero_conta=1&senha=12345"
+
+   //EMITIR O EXTRATO DE UMA CONTA:
+   Verbo: "GET" Rota:"http://localhost:3000/contas/saldo?numero_conta=1&senha=12345"
   ``` 
 
 
