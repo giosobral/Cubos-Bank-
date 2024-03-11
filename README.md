@@ -52,12 +52,10 @@ um determinado funcionário do banco pode obter todas as contas cadastradas no b
    //EMITIR O EXTRATO DE UMA CONTA:
    Verbo: "GET" Rota:"http://localhost:3000/contas/saldo?numero_conta=1&senha=12345"
   ```
-
-
+   
    ## 🖼️Imagens:
-
-  <a target="_blank" href="https://drive.google.com/drive/folders/1E88j5APOVGH6xUAAsfxfZd9pV_pIrnkr?usp=drive_link">Como criar requisições com rotas no Insomnia</a>
-  <a target="_blank" href="https://drive.google.com/drive/folders/1M1qOER_-HD4b3HrGO83Cy26R8JxvmuWm?usp=drive_link">Prints do Projeto em funcionamento</a>
+  - <a target="_blank" href="https://drive.google.com/drive/folders/1E88j5APOVGH6xUAAsfxfZd9pV_pIrnkr?usp=drive_link">Como criar requisições com rotas no Insomnia</a>
+  - <a target="_blank" href="https://drive.google.com/drive/folders/1M1qOER_-HD4b3HrGO83Cy26R8JxvmuWm?usp=drive_link">Prints do Projeto em funcionamento</a>
 
   
 
