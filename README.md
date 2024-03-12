@@ -20,9 +20,11 @@ um determinado funcionário do banco pode obter todas as contas cadastradas no b
 - Dê o Comando "node .src/index.js" no terminal
 - Agora basta ir ate um gerenciador de rotas e Importar o Arquivo de coleção de requisições que está disponivel para download logo abaixo.
 - Segue também o link de uma pasta no google drive com imagens de como importar uma coleção de requisições no insomnia, este arquivo é compativel com outros gerenciadores de rotas, como o Postman.
-   
+
+   ## 📥Download do Arquivo de coleções de requisição:
+   - <a target="_blank" href="https://drive.google.com/file/d/1bD-D9McoB9SqMQhHdBad9O9U6XUNCT7S/view?usp=drive_link">CubosBank-API-Json</a>
+    
    ## 🖼️Imagens:
-  - <a target="_blank" href="https://drive.google.com/file/d/1bD-D9McoB9SqMQhHdBad9O9U6XUNCT7S/view?usp=drive_link">CubosBank-API-Json</a>
   - <a target="_blank" href="https://drive.google.com/drive/folders/1E88j5APOVGH6xUAAsfxfZd9pV_pIrnkr?usp=drive_link">Importando uma Coleção de requisições para o insomnia</a>
   - <a target="_blank" href="https://drive.google.com/drive/folders/1M1qOER_-HD4b3HrGO83Cy26R8JxvmuWm?usp=drive_link">Prints do Projeto em funcionamento</a>
 
