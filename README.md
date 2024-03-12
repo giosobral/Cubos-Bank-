@@ -16,8 +16,8 @@ um determinado funcionário do banco pode obter todas as contas cadastradas no b
 
 - Acessando o repositório do projeto através deste link: <a target="_blank" href="https://github.com/giosobral/CubosBank">https://github.com/giosobral/CubosBank</a>
 - Após isso deverá ser feito Clone do projeto dando o comando "Git Clone" atráves do terminal e colando a chave SSH ou o Link do repositorio.
-- Dentro de um Editor de Código como por exemplo o VS Code, deverá instalar umas bibliotecas com o comando "npm install", e passando o nome das bibliotecas que são: express, data-fns, poderás também instalar o nodemon, mas essa é opcional.
-- Dê o Comando "node .src/index.js" no terminal
+- Dentro de um Editor de Código como por exemplo o VS Code, deverá dar o comando "npm install" para instalar todas as bibliotecas utilizadas no projeto
+- Dê o Comando "npm run dev" no terminal, para iniciar o servidor
 - Agora basta ir ate um gerenciador de rotas e Importar o Arquivo de coleção de requisições que está disponivel para download logo abaixo.
 - Segue também o link de uma pasta no google drive com imagens de como importar uma coleção de requisições no insomnia, este arquivo é compativel com outros gerenciadores de rotas, como o Postman.
 
