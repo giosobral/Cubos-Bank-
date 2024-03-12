@@ -18,43 +18,12 @@ um determinado funcionário do banco pode obter todas as contas cadastradas no b
 - Após isso deverá ser feito Clone do projeto dando o comando "Git Clone" atráves do terminal e colando a chave SSH ou o Link do repositorio.
 - Dentro de um Editor de Código como por exemplo o VS Code, deverá instalar umas bibliotecas com o comando "npm install", e passando o nome das bibliotecas que são: express, data-fns, poderás também instalar o nodemon, mas essa é opcional.
 - Dê o Comando "node .src/index.js" no terminal
-- Agora basta ir ate um gerenciador de rotas e criar as requisições passando as seguintes rotas para cada função do banco:
-
-   ```javascript
-   //Observacoes:
-   "O 'N' passado como parametro de requisição em algumas rotas significa o numero da conta, no caso vc deverá substituir este por um número"
-   "a senha passada como  parametro de consulta é a senha do usuario informado pelo numero da conta, já a senha_banco é a senha administrativa do banco"
-
-   //LISTAR TODAS AS CONTAS CADASTRADAS NO BANCO:
-   Verbo: "GET" Rota:"localhost:3000/contas?senha_banco=Cubos123Bank"
-
-   //CADASTRAR UMA NOVA CONTA:
-   Verbo: "POST" Rota:"localhost:3000/contas"
-
-   //ATUALIZAR OS DADOS DE UMA CONTA:
-   Verbo: "POST" Rota:"localhost:3000/contas/N/usuario" 
-
-   //EXCLUIR UMA CONTA:
-   Verbo: "DELETE" Rota:"localhost:3000/contas/N"
-
-   //DEPOSITAR EM UMA CONTA:
-   Verbo: "POST" Rota:"localhost:3000/transacoes/depositar"
-
-   //SACAR DE UMA CONTA:
-   Verbo: "POST" Rota:"localhost:3000/transacoes/sacar"
-
-   //TRANSFERIR ENTRE CONTAS:
-   Verbo: "POST" Rota:"localhost:3000/transacoes/transferir"
-
-   //OBTER O SALDO DE UMA CONTA:
-   Verbo: "GET" Rota:"http://localhost:3000/contas/saldo?numero_conta=1&senha=12345"
-
-   //EMITIR O EXTRATO DE UMA CONTA:
-   Verbo: "GET" Rota:"http://localhost:3000/contas/saldo?numero_conta=1&senha=12345"
-  ```
+- Agora basta ir ate um gerenciador de rotas e Importar o Arquivo de coleção de requisições que está disponivel para download logo abaixo.
+- Segue também o link de uma pasta no google drive com imagens de como importar uma coleção de requisições no insomnia, este arquivo é compativel com outros gerenciadores de rotas, como o Postman.
    
    ## 🖼️Imagens:
-  - <a target="_blank" href="https://drive.google.com/drive/folders/1E88j5APOVGH6xUAAsfxfZd9pV_pIrnkr?usp=drive_link">Como criar requisições com rotas no Insomnia</a>
+  - <a target="_blank" href="https://drive.google.com/file/d/1bD-D9McoB9SqMQhHdBad9O9U6XUNCT7S/view?usp=drive_link">CubosBank-API-Json</a>
+  - <a target="_blank" href="https://drive.google.com/drive/folders/1E88j5APOVGH6xUAAsfxfZd9pV_pIrnkr?usp=drive_link">Importando uma Coleção de requisições para o insomnia</a>
   - <a target="_blank" href="https://drive.google.com/drive/folders/1M1qOER_-HD4b3HrGO83Cy26R8JxvmuWm?usp=drive_link">Prints do Projeto em funcionamento</a>
 
   
